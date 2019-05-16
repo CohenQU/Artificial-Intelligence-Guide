@@ -10,4 +10,5 @@
 <details>
 <summary>2019/05/16</summary>
 <br>09:00-10:10 : Artificial Intelligence <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/lecture-9-constraints-visual-object-recognition/">Lecture 9</a>
+<br>11:00-12:30 : Artificial Intelligence <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/lecture-10-introduction-to-learning-nearest-neighbors/">Lecture 10</a>
 </details>
