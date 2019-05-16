@@ -13,5 +13,7 @@
 <br>11:00-12:30 : Artificial Intelligence <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/lecture-10-introduction-to-learning-nearest-neighbors/">Lecture 10</a>
 <br>16:00-18:00 : Artificial Intelligence <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/lecture-11-learning-identification-trees-disorder/">Lecture 11</a>
 <br>19:00-20:00 : Artificial Intelligence <a href="https://www.bilibili.com/video/av17963543/?p=12">Lecture 12(2010)</a> Just vedio.
-<br>20:30-21:30 : Deeplizard <a href="http://deeplizard.com/learn/video/v5cngxo4mIg">PyTorch Prerequisites - Syllabus for Neural Network Programming Series</a> <a href="http://deeplizard.com/learn/video/gZmobeGL0Yg">Deep Learning playlist overview & Machine Learning intro</a> 
+<br>20:30-21:30 : Deeplizard 
+<a href="http://deeplizard.com/learn/video/v5cngxo4mIg">PyTorch Prerequisites - Syllabus for Neural Network Programming Series</a> 
+<a href="http://deeplizard.com/learn/video/gZmobeGL0Yg">Deep Learning playlist overview & Machine Learning intro</a> 
 </details>
