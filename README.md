@@ -7,3 +7,6 @@
 <br>16:00-17:00 : Artificial Intelligence <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/mega-recitation-videos/mega-recitation-3-games-minimax-alpha-beta/">Mega-Recitation 3</a>
 <br>17:30-19:30 : Artificial Intelligence <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/lecture-8-constraints-search-domain-reduction/">Lecture 8</a>
 </details>
+<details>
+<summary>2019/05/16</summary>
+</details>
