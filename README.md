@@ -20,6 +20,6 @@
 <a href="https://www.analyticsvidhya.com/blog/2018/04/fundamentals-deep-learning-regularization-techniques/">An Overview of Regularization Techniques in Deep Learning (with Python code)</a>
 </details>
 
-## Additional Material 
+# Additional Material 
 * [What is the Difference Between a Batch and an Epoch in a Neural Network?](https://machinelearningmastery.com/difference-between-a-batch-and-an-epoch/)
 * [An Overview of Regularization Techniques in Deep Learning (with Python code)](https://www.analyticsvidhya.com/blog/2018/04/fundamentals-deep-learning-regularization-techniques/)
