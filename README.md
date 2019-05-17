@@ -15,3 +15,7 @@
 <br>19:00-20:00 : Artificial Intelligence <a href="https://www.bilibili.com/video/av17963543/?p=12">Lecture 12(2010)</a> Just vedio.
 <br>20:30-21:30 : Deeplizard <a href="http://deeplizard.com/learn/video/v5cngxo4mIg">PyTorch 1</a> and <a href="http://deeplizard.com/learn/video/gZmobeGL0Yg">Deep Learning 1</a> 
 </details>
+<details>
+<summary>2019/05/17</summary>
+<a href="https://www.analyticsvidhya.com/blog/2018/04/fundamentals-deep-learning-regularization-techniques/">An Overview of Regularization Techniques in Deep Learning (with Python code)</a>
+</details>
