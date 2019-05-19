@@ -1,0 +1,94 @@
+\contentsline {section}{\numberline {1}Introduction}{6}{section.0.1}
+\contentsline {subsection}{\numberline {1.1}Definition}{6}{subsection.0.1.1}
+\contentsline {subsection}{\numberline {1.2}Basic Idea}{6}{subsection.0.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Generate-And-Test Algorithm}{6}{subsubsection.0.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Rumpelstiltsin Principle}{6}{subsubsection.0.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.3}Simple $\not =$ Trival}{6}{subsubsection.0.1.2.3}
+\contentsline {section}{\numberline {2}Reasoning: Goal Trees and Problem Solving}{7}{section.0.2}
+\contentsline {subsection}{\numberline {2.1}Question}{7}{subsection.0.2.1}
+\contentsline {subsection}{\numberline {2.2}Model}{7}{subsection.0.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Problem Rediction or AND-OR Tree or Goal Tree}{7}{subsubsection.0.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Architecture}{7}{subsubsection.0.2.2.2}
+\contentsline {subsection}{\numberline {2.3}Transformation}{8}{subsection.0.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Safe Transformation}{8}{subsubsection.0.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Heuristic Transformation}{8}{subsubsection.0.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Procedure}{8}{subsubsection.0.2.3.3}
+\contentsline {subsection}{\numberline {2.4}Reflection}{8}{subsection.0.2.4}
+\contentsline {subsection}{\numberline {2.5}Questions about the nature of knowledge}{9}{subsection.0.2.5}
+\contentsline {section}{\numberline {3}Reasoning: Goal Trees and Rule-Based Expert Systems}{10}{section.0.3}
+\contentsline {subsection}{\numberline {3.1}Goal Centered Programming}{10}{subsection.0.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Goal}{10}{subsubsection.0.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Function}{10}{subsubsection.0.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Procedure}{11}{subsubsection.0.3.1.3}
+\contentsline {subsection}{\numberline {3.2}Rule-Based Expert System}{11}{subsection.0.3.2}
+\contentsline {section}{\numberline {4}Search: Depth-First, Hill Climbing, Beam}{12}{section.0.4}
+\contentsline {subsection}{\numberline {4.1}Question}{12}{subsection.0.4.1}
+\contentsline {subsection}{\numberline {4.2}British Museum Approach--find every possible path}{12}{subsection.0.4.2}
+\contentsline {subsection}{\numberline {4.3}Depth First Search/Breadth First Search}{13}{subsection.0.4.3}
+\contentsline {subsection}{\numberline {4.4}Hill Climbing}{13}{subsection.0.4.4}
+\contentsline {subsection}{\numberline {4.5}Beam Search}{14}{subsection.0.4.5}
+\contentsline {subsection}{\numberline {4.6}Procedure}{14}{subsection.0.4.6}
+\contentsline {subsection}{\numberline {4.7}Property}{14}{subsection.0.4.7}
+\contentsline {section}{\numberline {5}Search: Optimal, Branch and Bound, A*}{15}{section.0.5}
+\contentsline {subsection}{\numberline {5.1}Question: find the best path}{15}{subsection.0.5.1}
+\contentsline {subsection}{\numberline {5.2}Branch \& Bound}{15}{subsection.0.5.2}
+\contentsline {subsection}{\numberline {5.3}with Extended List}{16}{subsection.0.5.3}
+\contentsline {subsection}{\numberline {5.4}with Admissible Heuristic}{16}{subsection.0.5.4}
+\contentsline {subsection}{\numberline {5.5}A*}{17}{subsection.0.5.5}
+\contentsline {section}{\numberline {6}Search: Games, Minimax, and Alpha-Beta}{18}{section.0.6}
+\contentsline {subsection}{\numberline {6.1}Ways to Play}{18}{subsection.0.6.1}
+\contentsline {subsection}{\numberline {6.2}Minimax Algorithm}{18}{subsection.0.6.2}
+\contentsline {subsection}{\numberline {6.3}Alpha-Beta Pruning}{18}{subsection.0.6.3}
+\contentsline {subsection}{\numberline {6.4}Progressive Deepening--Anytime Algorithm}{19}{subsection.0.6.4}
+\contentsline {subsection}{\numberline {6.5}Deep Blue}{19}{subsection.0.6.5}
+\contentsline {section}{\numberline {7}Constraints: Interpreting Line Drawings}{20}{section.0.7}
+\contentsline {subsection}{\numberline {7.1}Guzman's Solution}{20}{subsection.0.7.1}
+\contentsline {subsection}{\numberline {7.2}Dave Huffman's Solution}{21}{subsection.0.7.2}
+\contentsline {subsection}{\numberline {7.3}David Waltz's Solution}{22}{subsection.0.7.3}
+\contentsline {section}{\numberline {8}Constraints: Search, Domain Reduction}{23}{section.0.8}
+\contentsline {subsection}{\numberline {8.1}Term}{23}{subsection.0.8.1}
+\contentsline {subsection}{\numberline {8.2}Procedure--Domain Reduction Algorithm}{23}{subsection.0.8.2}
+\contentsline {subsection}{\numberline {8.3}Consider}{23}{subsection.0.8.3}
+\contentsline {section}{\numberline {9}Constraints: Visual Object Recognition}{24}{section.0.9}
+\contentsline {subsection}{\numberline {9.1}David Marr's idea--JUST A IDEA}{24}{subsection.0.9.1}
+\contentsline {subsection}{\numberline {9.2}Shimon Ullman--Alignment Theory}{24}{subsection.0.9.2}
+\contentsline {subsection}{\numberline {9.3}Correlation Theory}{25}{subsection.0.9.3}
+\contentsline {section}{\numberline {10}Introduction to Learning, Nearest Neighbors}{26}{section.0.10}
+\contentsline {subsection}{\numberline {10.1}Types of Learning}{26}{subsection.0.10.1}
+\contentsline {subsection}{\numberline {10.2}Mechanism of Pattern Recognition}{26}{subsection.0.10.2}
+\contentsline {subsection}{\numberline {10.3}Learning}{26}{subsection.0.10.3}
+\contentsline {section}{\numberline {11}Learning: Identification Trees, Disorder}{27}{section.0.11}
+\contentsline {subsection}{\numberline {11.1}Target}{27}{subsection.0.11.1}
+\contentsline {subsection}{\numberline {11.2}Difference between the Dataset of Identification Tree and Nearest Neighbor}{27}{subsection.0.11.2}
+\contentsline {subsection}{\numberline {11.3}Procedure\IeC {\textemdash }\IeC {\textemdash }Occam's Razor}{27}{subsection.0.11.3}
+\contentsline {subsubsection}{\numberline {11.3.1}Naive Strategy}{27}{subsubsection.0.11.3.1}
+\contentsline {subsubsection}{\numberline {11.3.2}Large Dataset}{28}{subsubsection.0.11.3.2}
+\contentsline {subsection}{\numberline {11.4}Decision Boundary}{29}{subsection.0.11.4}
+\contentsline {subsection}{\numberline {11.5}Tree to Rule}{29}{subsection.0.11.5}
+\contentsline {section}{\numberline {12}Neural Nets}{30}{section.0.12}
+\contentsline {subsection}{\numberline {12.1}Model Real Neuron}{30}{subsection.0.12.1}
+\contentsline {subsection}{\numberline {12.2}Training}{30}{subsection.0.12.2}
+\contentsline {subsection}{\numberline {12.3}Gradient Descent}{31}{subsection.0.12.3}
+\contentsline {subsection}{\numberline {12.4}}{31}{subsection.0.12.4}
+\contentsline {subsection}{\numberline {12.5}Backpropagation Algorithm}{32}{subsection.0.12.5}
+\contentsline {section}{\numberline {13}Learning: Genetic Algorithms}{33}{section.0.13}
+\contentsline {subsection}{\numberline {13.1}Imitation (ATCG $\DOTSB \relbar \joinrel \rightarrow $ 01)}{33}{subsection.0.13.1}
+\contentsline {subsection}{\numberline {13.2}Mechanism}{34}{subsection.0.13.2}
+\contentsline {subsubsection}{\numberline {13.2.1}Fitness}{34}{subsubsection.0.13.2.1}
+\contentsline {subsubsection}{\numberline {13.2.2}Rank Space}{34}{subsubsection.0.13.2.2}
+\contentsline {subsubsection}{\numberline {13.2.3}Diversity}{34}{subsubsection.0.13.2.3}
+\contentsline {section}{\numberline {14}Learning: Sparse Spaces, Phonology}{35}{section.0.14}
+\contentsline {subsection}{\numberline {14.1}Point}{35}{subsection.0.14.1}
+\contentsline {subsection}{\numberline {14.2}Phonological Rules}{35}{subsection.0.14.2}
+\contentsline {subsubsection}{\numberline {14.2.1}Distinctive features Theory}{35}{subsubsection.0.14.2.1}
+\contentsline {subsubsection}{\numberline {14.2.2}YIP-SUSSMAN Machine/Learner}{35}{subsubsection.0.14.2.2}
+\contentsline {subsection}{\numberline {14.3}Sparse Spaces*(!More information need)}{36}{subsection.0.14.3}
+\contentsline {subsection}{\numberline {14.4}Marr's Catechism}{37}{subsection.0.14.4}
+\contentsline {section}{\numberline {15}Learning: Near Misses, Felicity Conditions}{38}{section.0.15}
+\contentsline {section}{\numberline {16}Learning: Support Vector Machines}{39}{section.0.16}
+\contentsline {section}{\numberline {17}Learning: Boosting}{40}{section.0.17}
+\contentsline {section}{\numberline {18}Representations: Classes, Trajectories, Transitions}{41}{section.0.18}
+\contentsline {section}{\numberline {19}Architectures: GPS, SOAR, Subsumption, Society of Mind}{42}{section.0.19}
+\contentsline {section}{\numberline {20}Probabilistic Inference I}{43}{section.0.20}
+\contentsline {section}{\numberline {21}Probabilistic Inference II}{44}{section.0.21}
+\contentsline {section}{\numberline {22}Model Merging, Cross-Modal Coupling, Course Summary}{45}{section.0.22}
