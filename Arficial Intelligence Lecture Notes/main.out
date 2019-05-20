@@ -82,13 +82,18 @@
 \BOOKMARK [2][-]{subsection.0.14.2}{Phonological Rules}{section.0.14}% 82
 \BOOKMARK [3][-]{subsubsection.0.14.2.1}{Distinctive features Theory}{subsection.0.14.2}% 83
 \BOOKMARK [3][-]{subsubsection.0.14.2.2}{YIP-SUSSMAN Machine/Learner}{subsection.0.14.2}% 84
-\BOOKMARK [2][-]{subsection.0.14.3}{Sparse Spaces*\(!More information need\)}{section.0.14}% 85
+\BOOKMARK [2][-]{subsection.0.14.3}{Sparse Spaces\(!More information need\)}{section.0.14}% 85
 \BOOKMARK [2][-]{subsection.0.14.4}{Marr's Catechism}{section.0.14}% 86
 \BOOKMARK [1][-]{section.0.15}{Learning: Near Misses, Felicity Conditions}{}% 87
-\BOOKMARK [1][-]{section.0.16}{Learning: Support Vector Machines}{}% 88
-\BOOKMARK [1][-]{section.0.17}{Learning: Boosting}{}% 89
-\BOOKMARK [1][-]{section.0.18}{Representations: Classes, Trajectories, Transitions}{}% 90
-\BOOKMARK [1][-]{section.0.19}{Architectures: GPS, SOAR, Subsumption, Society of Mind}{}% 91
-\BOOKMARK [1][-]{section.0.20}{Probabilistic Inference I}{}% 92
-\BOOKMARK [1][-]{section.0.21}{Probabilistic Inference II}{}% 93
-\BOOKMARK [1][-]{section.0.22}{Model Merging, Cross-Modal Coupling, Course Summary}{}% 94
+\BOOKMARK [2][-]{subsection.0.15.1}{Learning Process}{section.0.15}% 88
+\BOOKMARK [2][-]{subsection.0.15.2}{Five Qualities}{section.0.15}% 89
+\BOOKMARK [1][-]{section.0.16}{Learning: Support Vector Machines}{}% 90
+\BOOKMARK [2][-]{subsection.0.16.1}{Decision Boundary}{section.0.16}% 91
+\BOOKMARK [2][-]{subsection.0.16.2}{Vladimir Vapnik's Idea\205Support Vector Machine}{section.0.16}% 92
+\BOOKMARK [2][-]{subsection.0.16.3}{Kernal Function}{section.0.16}% 93
+\BOOKMARK [1][-]{section.0.17}{Learning: Boosting}{}% 94
+\BOOKMARK [1][-]{section.0.18}{Representations: Classes, Trajectories, Transitions}{}% 95
+\BOOKMARK [1][-]{section.0.19}{Architectures: GPS, SOAR, Subsumption, Society of Mind}{}% 96
+\BOOKMARK [1][-]{section.0.20}{Probabilistic Inference I}{}% 97
+\BOOKMARK [1][-]{section.0.21}{Probabilistic Inference II}{}% 98
+\BOOKMARK [1][-]{section.0.22}{Model Merging, Cross-Modal Coupling, Course Summary}{}% 99

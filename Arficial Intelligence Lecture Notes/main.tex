@@ -765,7 +765,7 @@ If we present this machine with a pair of apples.
 	\item Information flows from word to register so as to indicate that it's a noun but not a verb; also writes "a", "p", and "l" into the buffer
 	\item Left flow of the word
 \end{enumerate}
-\subsection{Sparse Spaces*(!More information need)}
+\subsection{Sparse Spaces(!More information need)}
 \begin{enumerate}
 	\item COLLECT positive(+) and negative(-) examples
 	\item PICK positive(+) seed
@@ -782,11 +782,126 @@ If we present this machine with a pair of apples.
 \end{enumerate}
 \newpage
 \section{Learning: Near Misses, Felicity Conditions}
-
+\subsection{Learning Process}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.5]{Figure/Figure15_1.png}
+	\caption{Specialization}
+\end{figure}
+\newpage
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.58]{Figure/Figure15_2.png}
+	\caption{Generalization}
+\end{figure}
+\subsection{Five Qualities}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.5]{Figure/Figure15_3.png}
+	\caption{Five "S"}
+\end{figure}
 \newpage
 \section{Learning: Support Vector Machines}
-
+\subsection{Decision Boundary}
+\begin{figure}[htbp]
+	\centering
+	\begin{minipage}[t]{0.32\textwidth}
+		\centering
+		\includegraphics[height=4cm]{Figure/Figure16_1.png}
+		\caption{Nearest Neighbors}
+	\end{minipage}
+	\begin{minipage}[t]{0.32\textwidth}
+		\centering
+		\includegraphics[height=4cm]{Figure/Figure16_2.png}
+		\caption{Identification Tree}
+	\end{minipage}
+	\begin{minipage}[t]{0.32\textwidth}
+		\centering
+		\includegraphics[height=4cm]{Figure/Figure16_3.png}
+		\caption{Neural Nets}
+	\end{minipage}
+\end{figure}
+\subsection{Vladimir Vapnik's Idea--Support Vector Machine}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.85]{Figure/Figure16_4.png}
+	\caption{Sample Space}
+\end{figure}
+$$\boxed{\vec{w}\cdot \vec{u}\geq c}$$
+\indent \textbf{Decision Rule: if $\vec{w}\cdot\vec{u}+b\geq 0$, then $u$ is a positive point ($c = - b$)}\\
+\indent Then, we are going to lay on some additional constraints
+\begin{equation*}
+\begin{aligned}
+\vec{w}\cdot \vec{x_+}+b \geq&1\\
+\vec{w}\cdot \vec{x_-}+b \leq& 1
+\end{aligned}
+\end{equation*}
+\indent Define $y_i$ such that $y_i=+1$ for positive samples and $y_i=-1$ for negative samples
+\begin{equation*}
+\begin{aligned}
+y_i&(\vec{w}\cdot \vec{x_i}+b) \geq1\\
+y_i&(\vec{w}\cdot \vec{x_i}+b) -1\geq 0
+\end{aligned}
+\end{equation*}
+\indent For $x_i$ located in the gutter
+$$\boxed{y_i(\vec{w}\cdot \vec{x_i}+b) -1= 0}$$
 \newpage
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.85]{Figure/Figure16_5.png}
+	\caption{Sample Space}
+\end{figure}
+\indent Let $\vec{w}$ be a normal vector
+\begin{equation*}
+\begin{aligned}
+WIDTH = &(\vec{x_+}-\vec{x_-})\cdot \frac{\vec{w}}{||\vec{w}||}\\
+=&\frac{(\vec{x_+}\cdot\vec{w}-\vec{x_-}\cdot\vec{w})}{||\vec{w}||}\\
+=&\frac{(1+b)-(b-1)}{||\vec{w}||}\\
+=&\frac{2}{||\vec{w}||}
+\end{aligned}
+\end{equation*}
+\indent \textbf{MAX} $WIDTH$ $\Longrightarrow$ \textbf{MAX} $\frac{2}{||\vec{w}||}$ $\Longrightarrow$ \textbf{MAX} $\frac{1}{||\vec{w}||}$ $\Longrightarrow$ \textbf{MIN} $||\vec{w}||$ $\Longrightarrow$ \textbf{MIN} $\frac{1}{2}||\vec{w}||^2  $\\
+\indent For finding the extremum of a function with constraints, we have to use \textit{\textbf{Lagrange Multiplier}}
+\begin{equation*}
+\begin{aligned}
+L = &\frac{1}{2}||\vec{w}||^2-\sum_i \alpha_i[y_i(\vec{w}\cdot \vec{x_i}+b)-1]\\
+\frac{\partial L}{\partial \vec{w}} = &\vec{w}-\sum_i \alpha_i y_i\vec{x_i} = 0\Longrightarrow \boxed{\vec{w}=\sum_i \alpha_i y_i \vec{x_i}}\\
+\frac{\partial L}{\partial b} = &-\sum_i\alpha_iy_i=0\Longrightarrow\boxed{\sum_ia_iy_i=0} 
+\end{aligned}
+\end{equation*}
+\indent Plug the expression for $\vec{w}$ back in the expression for $L$
+\begin{equation*}
+\begin{aligned}
+L = &\frac{1}{2}(\sum_i \alpha_iy_i\vec{x_i})(\sum_j \alpha_jy_j\vec{x_j})-(\sum_i \alpha_iy_i\vec{x_i})(\sum_j \alpha_jy_j\vec{x_j})-\sum_i \alpha_iy_ib+\sum_i \alpha_i\\
+=&\sum_i \alpha_i-\frac{1}{2}(\sum_i \alpha_iy_i\vec{x_i})(\sum_j \alpha_jy_j\vec{x_j})-b\sum_i \alpha_iy_i\\
+=&\sum_i \alpha_i-\frac{1}{2}\sum_i\sum_j\alpha_i\alpha_jy_iy_j\boxed{\vec{x_i}\cdot\vec{x_j}}
+\end{aligned}
+\end{equation*}
+\indent \textbf{This maximization depends only on the dot product of pairs of samples}\\
+\indent Plug the expression for $\vec{w}$ back in the decision rule\\
+$$\sum_i\alpha_iy_i\vec{x_i}\cdot\vec{u}+b\geq 0$$
+\indent \textbf{the decision rule also depends only on the dot product of those samples vectors and the unknown point}.
+\newpage
+\indent If the samples are not linearly separable
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.85]{Figure/Figure16_6.png}
+	\caption{Space transformation}
+\end{figure}
+\newline
+\indent As the optimization only depends on the dot product, we just need to maximize
+$$\phi({\vec{x_i}})\cdot\phi({\vec{x_j}})$$
+\indent As the recognition also only depends on the dot product, we just need to maximize
+$$\phi({\vec{x_i}})\cdot\phi({\vec{u}})$$
+\indent What the matter is the dot product, even though we do not know the specific transformation. All we need is a \textit{\textbf{Kernal Function}}
+$$K(\vec{x_i},\vec{x_j})=\phi(\vec{x_i})\cdot \phi(\vec{x_j})$$
+\subsection{Kernal Function}
+\begin{enumerate}
+	\item Linear kernal
+	$$(\vec{x_i}\cdot\vec{x_j}+1)^n$$
+	\item Radial basis kernal 
+	$$e^{-\frac{||\vec{x_i}-\vec{x_j}||}{\sigma}}$$
+\end{enumerate}
 \section{Learning: Boosting}
 
 \newpage

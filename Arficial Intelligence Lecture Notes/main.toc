@@ -82,13 +82,18 @@
 \contentsline {subsection}{\numberline {14.2}Phonological Rules}{35}{subsection.0.14.2}
 \contentsline {subsubsection}{\numberline {14.2.1}Distinctive features Theory}{35}{subsubsection.0.14.2.1}
 \contentsline {subsubsection}{\numberline {14.2.2}YIP-SUSSMAN Machine/Learner}{35}{subsubsection.0.14.2.2}
-\contentsline {subsection}{\numberline {14.3}Sparse Spaces*(!More information need)}{36}{subsection.0.14.3}
+\contentsline {subsection}{\numberline {14.3}Sparse Spaces(!More information need)}{36}{subsection.0.14.3}
 \contentsline {subsection}{\numberline {14.4}Marr's Catechism}{37}{subsection.0.14.4}
 \contentsline {section}{\numberline {15}Learning: Near Misses, Felicity Conditions}{38}{section.0.15}
-\contentsline {section}{\numberline {16}Learning: Support Vector Machines}{39}{section.0.16}
-\contentsline {section}{\numberline {17}Learning: Boosting}{40}{section.0.17}
-\contentsline {section}{\numberline {18}Representations: Classes, Trajectories, Transitions}{41}{section.0.18}
-\contentsline {section}{\numberline {19}Architectures: GPS, SOAR, Subsumption, Society of Mind}{42}{section.0.19}
-\contentsline {section}{\numberline {20}Probabilistic Inference I}{43}{section.0.20}
-\contentsline {section}{\numberline {21}Probabilistic Inference II}{44}{section.0.21}
-\contentsline {section}{\numberline {22}Model Merging, Cross-Modal Coupling, Course Summary}{45}{section.0.22}
+\contentsline {subsection}{\numberline {15.1}Learning Process}{38}{subsection.0.15.1}
+\contentsline {subsection}{\numberline {15.2}Five Qualities}{39}{subsection.0.15.2}
+\contentsline {section}{\numberline {16}Learning: Support Vector Machines}{40}{section.0.16}
+\contentsline {subsection}{\numberline {16.1}Decision Boundary}{40}{subsection.0.16.1}
+\contentsline {subsection}{\numberline {16.2}Vladimir Vapnik's Idea--Support Vector Machine}{40}{subsection.0.16.2}
+\contentsline {subsection}{\numberline {16.3}Kernal Function}{42}{subsection.0.16.3}
+\contentsline {section}{\numberline {17}Learning: Boosting}{42}{section.0.17}
+\contentsline {section}{\numberline {18}Representations: Classes, Trajectories, Transitions}{43}{section.0.18}
+\contentsline {section}{\numberline {19}Architectures: GPS, SOAR, Subsumption, Society of Mind}{44}{section.0.19}
+\contentsline {section}{\numberline {20}Probabilistic Inference I}{45}{section.0.20}
+\contentsline {section}{\numberline {21}Probabilistic Inference II}{46}{section.0.21}
+\contentsline {section}{\numberline {22}Model Merging, Cross-Modal Coupling, Course Summary}{47}{section.0.22}
