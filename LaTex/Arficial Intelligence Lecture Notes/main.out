@@ -90,10 +90,22 @@
 \BOOKMARK [1][-]{section.0.16}{Learning: Support Vector Machines}{}% 90
 \BOOKMARK [2][-]{subsection.0.16.1}{Decision Boundary}{section.0.16}% 91
 \BOOKMARK [2][-]{subsection.0.16.2}{Vladimir Vapnik's Idea\205Support Vector Machine}{section.0.16}% 92
-\BOOKMARK [2][-]{subsection.0.16.3}{Kernal Function}{section.0.16}% 93
+\BOOKMARK [2][-]{subsection.0.16.3}{Kernel Function}{section.0.16}% 93
 \BOOKMARK [1][-]{section.0.17}{Learning: Boosting}{}% 94
-\BOOKMARK [1][-]{section.0.18}{Representations: Classes, Trajectories, Transitions}{}% 95
-\BOOKMARK [1][-]{section.0.19}{Architectures: GPS, SOAR, Subsumption, Society of Mind}{}% 96
-\BOOKMARK [1][-]{section.0.20}{Probabilistic Inference I}{}% 97
-\BOOKMARK [1][-]{section.0.21}{Probabilistic Inference II}{}% 98
-\BOOKMARK [1][-]{section.0.22}{Model Merging, Cross-Modal Coupling, Course Summary}{}% 99
+\BOOKMARK [2][-]{subsection.0.17.1}{Question}{section.0.17}% 95
+\BOOKMARK [2][-]{subsection.0.17.2}{Get Out The Vote}{section.0.17}% 96
+\BOOKMARK [2][-]{subsection.0.17.3}{Decision Tree Stumps}{section.0.17}% 97
+\BOOKMARK [2][-]{subsection.0.17.4}{Algorithm}{section.0.17}% 98
+\BOOKMARK [2][-]{subsection.0.17.5}{Mathematic Derivation}{section.0.17}% 99
+\BOOKMARK [2][-]{subsection.0.17.6}{Thank God Hole}{section.0.17}% 100
+\BOOKMARK [1][-]{section.0.18}{Representations: Classes, Trajectories, Transitions}{}% 101
+\BOOKMARK [1][-]{section.0.19}{Architectures: GPS, SOAR, Subsumption, Society of Mind}{}% 102
+\BOOKMARK [1][-]{section.0.20}{Probabilistic Inference I}{}% 103
+\BOOKMARK [2][-]{subsection.0.20.1}{Basic Probability \(AXIOM\)}{section.0.20}% 104
+\BOOKMARK [2][-]{subsection.0.20.2}{Conditional Probability \(DEFINITION\)}{section.0.20}% 105
+\BOOKMARK [2][-]{subsection.0.20.3}{Chain Rule}{section.0.20}% 106
+\BOOKMARK [2][-]{subsection.0.20.4}{Independence}{section.0.20}% 107
+\BOOKMARK [2][-]{subsection.0.20.5}{Conditional Independence}{section.0.20}% 108
+\BOOKMARK [2][-]{subsection.0.20.6}{Belief Networks}{section.0.20}% 109
+\BOOKMARK [2][-]{subsection.0.20.7}{Naive Bayes' Inference}{section.0.20}% 110
+\BOOKMARK [1][-]{section.0.21}{Model Merging, Cross-Modal Coupling, Course Summary}{}% 111

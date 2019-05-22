@@ -16,7 +16,7 @@
 \pagestyle{fancy}
 \lhead{} 
 \chead{} 
-\rhead{} 
+\rhead{\textsuperscript{\textcopyright} \textbf{2019 Yuxiao QU}} 
 
 %set section's fontstyle
 \usepackage{titlesec}
@@ -893,17 +893,125 @@ $$\sum_i\alpha_iy_i\vec{x_i}\cdot\vec{u}+b\geq 0$$
 $$\phi({\vec{x_i}})\cdot\phi({\vec{x_j}})$$
 \indent As the recognition also only depends on the dot product, we just need to maximize
 $$\phi({\vec{x_i}})\cdot\phi({\vec{u}})$$
-\indent What the matter is the dot product, even though we do not know the specific transformation. All we need is a \textit{\textbf{Kernal Function}}
+\indent What the matter is the dot product, even though we do not know the specific transformation. All we need is a \textit{\textbf{Kernel Function}}
 $$K(\vec{x_i},\vec{x_j})=\phi(\vec{x_i})\cdot \phi(\vec{x_j})$$
-\subsection{Kernal Function}
+\subsection{Kernel Function}
 \begin{enumerate}
-	\item Linear kernal
+	\item Linear kernel
 	$$(\vec{x_i}\cdot\vec{x_j}+1)^n$$
-	\item Radial basis kernal 
+	\item Radial basis kernel 
 	$$e^{-\frac{||\vec{x_i}-\vec{x_j}||}{\sigma}}$$
 \end{enumerate}
-\section{Learning: Boosting}
+\newpage
 
+\section{Learning: Boosting}
+\subsection{Question}
+Consider \textbf{Binary Classification} problem. Assume there is a set of classifier
+$$h\rightarrow [-1, +1]$$
+\indent The error rate of this classifier will range from $0$ to $1$ in terms of the fraction of the cases got wrong on a sample set
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.6]{Figure/Figure17_1.png}
+	\caption{Error rate}
+\end{figure}
+\newline
+\textbf{If it possible to make a strong classifier by combining several weak classifiers, and letting them "VOTE"}
+$$H(x)=sign[h^1(x)+h^2(x)+h^3(x)]$$
+\begin{figure}[htbp]
+	\centering
+	\begin{minipage}[t]{0.48\textwidth}
+		\centering
+		\includegraphics[height=5cm]{Figure/Figure17_2.png}
+		\caption{Good case}
+	\end{minipage}
+	\begin{minipage}[t]{0.48\textwidth}
+		\centering
+		\includegraphics[height=5cm]{Figure/Figure17_3.png}
+		\caption{Bad case}
+	\end{minipage}
+\end{figure}
+\newline
+\indent \textbf{Strategy}
+\begin{equation*}
+\begin{aligned}
+	\textbf{DATA}& &\Longrightarrow h^1\\
+	\textbf{DATA}&\text{ with an exaggeration of $h^1$ errors} &\Longrightarrow h^2\\
+	\textbf{DATA}&\text{ with an exaggeration of $h^1\neq h^2$ } &\Longrightarrow h^3
+\end{aligned}
+\end{equation*}
+\newpage
+\subsection{Get Out The Vote}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.6]{Figure/Figure17_4.png}
+	\caption{Get out the vote}
+\end{figure}
+\subsection{Decision Tree Stumps}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.8]{Figure/Figure17_5.png}
+	\caption{Decision tree stumps}
+\end{figure}
+$$\text{ERROR RATE: }\epsilon=\sum_{wrong}w_i\,\,(\sum_i w_i = 1)$$
+\indent In the beginning there's no reason to suppose that any one of these is more or less important than any of other, so $w_i=\frac{1}{N}$, the boosting idea is to find a way to change the weights going downstream
+$$H(x)=sign[\alpha^1h^1(x)+\alpha^2h^2(x)+\alpha^3h^3(x)+\cdots]$$
+\indent \textbf{WISDOM OF WEIGHTED CROWD OF EXPERTS}
+\subsection{Algorithm}
+\begin{enumerate}
+	\item Let $w_i^1=\frac{1}{N(\text{\# samples})}$
+	\item \textbf{REPEAT} Pick $h^t$ that minimizes $\epsilon^t$, then get $\alpha^t$
+	\item Calculate $w^{t+1}$
+	\item \textbf{UNTIL} This classifier produces a perfect set of conclusions on all the sample data
+\end{enumerate}
+\newpage
+\subsection{Mathematic Derivation}
+Suppose $$w^{t+1}_i=\frac{w_i^t}{Z}e^{-\alpha^th^t(x)y(x)}$$
+\begin{equation*}
+\begin{aligned}
+w_i^{t+1}\longrightarrow&\text{ the weight on the } ith \text{ sample at time } t+1\\
+w_i^{t}\longrightarrow&\text{ the weight on the } ith \text{ sample at time } t\\
+Z\longrightarrow&\text{ normalizer}\\`
+y(x)\longrightarrow&\text{ function depends on }
+x \end{aligned}
+\end{equation*}
+\indent Minimum error bound for whole thing if
+$$\alpha^t=\frac{1}{2}\ln \frac{1-\epsilon^t}{\epsilon^t}$$
+\indent Plug the expression of $\alpha^t$ back to the above equation
+$$w_i^{t+1}=\frac{w_i^{t}}{Z}\times \left\{
+\begin{aligned}
+\sqrt{\frac{\epsilon^t}{1-\epsilon}}\text{, CORRECT}\\
+\sqrt{\frac{1-\epsilon^t}{\epsilon}
+} \text{, WRONG}
+\end{aligned}
+\right.
+$$
+\indent For normalize
+\begin{equation*}
+\begin{aligned}
+Z=&\sqrt{\frac{\epsilon^t}{1-\epsilon}}\sum_{CORRECT}w_i^t+\sqrt{\frac{1-\epsilon^t}{\epsilon}
+}\sum_{WRONG}w_i^t\\
+=&\sqrt{\frac{\epsilon^t}{1-\epsilon}}\cdot(1-\epsilon)+\sqrt{\frac{1-\epsilon^t}{\epsilon}
+}\cdot\epsilon\\
+=&2\sqrt{\epsilon^t(1-\epsilon^t)}
+\end{aligned}
+\end{equation*}
+\indent Plug the expression of $Z$ back to the above equation
+$$w_i^{t+1}=\frac{w_i^{t}}{2}\times \left\{
+\begin{aligned}
+&\frac{1}{1-\epsilon}\text{, CORRECT}\\
+&\frac{1}{\epsilon}\text{, WRONG}
+\end{aligned}
+\right.
+$$
+\indent Then,
+\begin{equation*}
+\begin{aligned}
+\sum_{CORRECT}w_i^{t+1}&=\frac{1}{2}\frac{1}{1-\epsilon}\sum_{CORRECT}w_i^t=\frac{1}{2}\\
+\sum_{WRONG}w_i^{t+1}&=\frac{1}{2}\frac{1}{\epsilon}\sum_{WRONG}w_i^t=\frac{1}{2}\\
+\end{aligned}
+\end{equation*}
+\subsection{Thank God Hole} 1. \href{https://www.youtube.com/watch?v=UHBmv7qCey4&list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi&index=18#t=46m44s}{Test Reduction}\\
+\indent 2. May not overfit, one reasonable explanation is that these decision tree stumps tend to wrap themselves so tightly around the error points so there is no room for overfitting because nothing else will fit in that same volume.
 \newpage
 \section{Representations: Classes, Trajectories, Transitions}
 
@@ -912,9 +1020,63 @@ $$K(\vec{x_i},\vec{x_j})=\phi(\vec{x_i})\cdot \phi(\vec{x_j})$$
 
 \newpage
 \section{Probabilistic Inference I}
-
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.62]{Figure/Figure20_1.png}
+	\caption{Procedure}
+\end{figure}
+\subsection{Basic Probability (AXIOM)}
+\begin{enumerate}
+	\item $0\leq P(a)\leq 1$
+	\item $P(TRUE)=1$\\
+			$P(FLASE)=0$
+	\item $P(a)+P(b)-P(a,b)=P(a\vee b)$
+\end{enumerate}
+\subsection{Conditional Probability (DEFINITION)}
+\begin{equation*}
+\begin{aligned}
+	P(a|b)=&\frac{P(a,b)}{P(b)}\\
+	P(a,b)=&P(a|b)P(b)
+\end{aligned}
+\end{equation*}
+\begin{equation*}
+\begin{aligned}
+P(a,b,c)=P(a|b,c)P(b,c)=P(a|b,c)P(b|c)P(c)
+\end{aligned}
+\end{equation*}
+\subsection{Chain Rule}
+$$\boxed{P(x_1,x_2,\cdots,x_n)=\prod_{i=n}^{1}P(x_i|x_{i-1},\cdots x_1)}$$
+\subsection{Independence}
+If $a$ independent of $b$
+$$P(a|b)=P(a)$$
 \newpage
-\section{Probabilistic Inference II}
+\subsection{Conditional Independence}
+$$P(a|b,z)=P(a|z)$$
+$$P(a,b|z)=P(a|z)P(b|z)$$
+\subsection{Belief Networks}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.62]{Figure/Figure20_2.png}
+	\caption{Procedure}
+\end{figure}
+Given its parents, every node is independent of all other non-descendants\\
+\indent 1. Chew away those variables from the bottom and build a linear list of all these variables
+$$(P,D,B,T,R)$$
+\indent the way to construct this list ensures that list arranges the elements so that for any particular element, none of its descendants appear to its left.\\
+\indent 2. Use chain rule
+\begin{equation*}
+\begin{aligned}
+P(p,d,b,t,r)=&P(p|d,b,t,r)P(d|b,t,r)P(b|t,r)P(t|r)P(r)\\
+=&P(p|d)P(d|b)P(b)P(t|r)P(r)
+\end{aligned}
+\end{equation*}
+\subsection{Naive Bayes' Inference}
+$$P(a|b)\equiv \frac{P(a,b)}{P(b)}$$
+$$P(a|b)P(b)=P(a,b)=P(b|a)P(a)$$
+$$P(a|b)=\frac{P(b|a)P(a)}{P(b)}$$
+\indent where $a$ is the class, $b$ is the evidences
+$$P(C_i|E)=\frac{P(E|C_i)P(C_i)}{P(E)}=\frac{P(e_1,\cdots,e_n|C_i)P(C_i)}{d}$$
+\newpage
 
 \newpage
 \section{Model Merging, Cross-Modal Coupling, Course Summary}

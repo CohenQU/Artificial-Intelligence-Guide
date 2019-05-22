@@ -90,10 +90,22 @@
 \contentsline {section}{\numberline {16}Learning: Support Vector Machines}{40}{section.0.16}
 \contentsline {subsection}{\numberline {16.1}Decision Boundary}{40}{subsection.0.16.1}
 \contentsline {subsection}{\numberline {16.2}Vladimir Vapnik's Idea--Support Vector Machine}{40}{subsection.0.16.2}
-\contentsline {subsection}{\numberline {16.3}Kernal Function}{42}{subsection.0.16.3}
-\contentsline {section}{\numberline {17}Learning: Boosting}{42}{section.0.17}
-\contentsline {section}{\numberline {18}Representations: Classes, Trajectories, Transitions}{43}{section.0.18}
-\contentsline {section}{\numberline {19}Architectures: GPS, SOAR, Subsumption, Society of Mind}{44}{section.0.19}
-\contentsline {section}{\numberline {20}Probabilistic Inference I}{45}{section.0.20}
-\contentsline {section}{\numberline {21}Probabilistic Inference II}{46}{section.0.21}
-\contentsline {section}{\numberline {22}Model Merging, Cross-Modal Coupling, Course Summary}{47}{section.0.22}
+\contentsline {subsection}{\numberline {16.3}Kernel Function}{42}{subsection.0.16.3}
+\contentsline {section}{\numberline {17}Learning: Boosting}{43}{section.0.17}
+\contentsline {subsection}{\numberline {17.1}Question}{43}{subsection.0.17.1}
+\contentsline {subsection}{\numberline {17.2}Get Out The Vote}{44}{subsection.0.17.2}
+\contentsline {subsection}{\numberline {17.3}Decision Tree Stumps}{44}{subsection.0.17.3}
+\contentsline {subsection}{\numberline {17.4}Algorithm}{44}{subsection.0.17.4}
+\contentsline {subsection}{\numberline {17.5}Mathematic Derivation}{45}{subsection.0.17.5}
+\contentsline {subsection}{\numberline {17.6}Thank God Hole}{45}{subsection.0.17.6}
+\contentsline {section}{\numberline {18}Representations: Classes, Trajectories, Transitions}{46}{section.0.18}
+\contentsline {section}{\numberline {19}Architectures: GPS, SOAR, Subsumption, Society of Mind}{47}{section.0.19}
+\contentsline {section}{\numberline {20}Probabilistic Inference I}{48}{section.0.20}
+\contentsline {subsection}{\numberline {20.1}Basic Probability (AXIOM)}{48}{subsection.0.20.1}
+\contentsline {subsection}{\numberline {20.2}Conditional Probability (DEFINITION)}{48}{subsection.0.20.2}
+\contentsline {subsection}{\numberline {20.3}Chain Rule}{48}{subsection.0.20.3}
+\contentsline {subsection}{\numberline {20.4}Independence}{48}{subsection.0.20.4}
+\contentsline {subsection}{\numberline {20.5}Conditional Independence}{49}{subsection.0.20.5}
+\contentsline {subsection}{\numberline {20.6}Belief Networks}{49}{subsection.0.20.6}
+\contentsline {subsection}{\numberline {20.7}Naive Bayes' Inference}{49}{subsection.0.20.7}
+\contentsline {section}{\numberline {21}Model Merging, Cross-Modal Coupling, Course Summary}{50}{section.0.21}
