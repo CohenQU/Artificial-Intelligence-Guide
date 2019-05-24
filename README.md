@@ -1,4 +1,4 @@
-# Summer-2019
+# Artificial Intelligence Guide
 
 ## ARTIFICIAL INTELLIGENCE
 * [MIT 6.034 Artificial Intelligence](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
