@@ -19,7 +19,14 @@
 <summary>2019/05/17</summary>
 <a href="https://www.analyticsvidhya.com/blog/2018/04/fundamentals-deep-learning-regularization-techniques/">An Overview of Regularization Techniques in Deep Learning (with Python code)</a>
 </details>
+##ARTIFICIAL INTELLIGENCE
 
+##DEEPLEARNING
+
+##PYTORCH
+* [MIT 6.034 Artificial Intelligence](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
+* [Lecture Notes]()
+##
 [Machine Learning & Deep Learning Fundamentals](http://deeplizard.com/learn/playlist/PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU)
 #### Additional Material 
 * [What is the Difference Between a Batch and an Epoch in a Neural Network?](https://machinelearningmastery.com/difference-between-a-batch-and-an-epoch/)
