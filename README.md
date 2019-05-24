@@ -11,7 +11,7 @@
 * [An Overview of Regularization Techniques in Deep Learning (with Python code)](https://www.analyticsvidhya.com/blog/2018/04/fundamentals-deep-learning-regularization-techniques/)
 
 ## PYTORCH
-* [60-Minute Blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)
+* [Deep Learning with PyTorch: A 60 Minute Blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)
   * [Tensor Operations](https://pytorch.org/docs/stable/torch.html)
   * [Automatic Differentiation Package-torch.autograd](https://pytorch.org/docs/stable/autograd.html#module-torch.autograd)
 * [PyTorch Tutorials](https://pytorch.org/tutorials/)
