@@ -2,7 +2,7 @@
 
 ## ARTIFICIAL INTELLIGENCE
 * [MIT 6.034 Artificial Intelligence](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
-* [Lecture Notes](Notes/Artificial Intelligence Lecture Notes.pdf)
+* [Lecture Notes](Notes/Artificial_Intelligence_Lecture_Notes.pdf)
 
 ## DEEPLEARNING
 * [Machine Learning & Deep Learning Fundamentals](http://deeplizard.com/learn/playlist/PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU)
