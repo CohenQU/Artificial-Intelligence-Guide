@@ -5,6 +5,10 @@ Awesome materials for learning about Artificial Intelligence
 * [MIT 6.034 Artificial Intelligence](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
   * [Lecture Notes](Notes/Artificial_Intelligence_Lecture_Notes.pdf)
 
+## MACHINE LEARNING
+* [Machine Learning Foundations](https://www.youtube.com/watch?v=nQvpFSMPhr0&list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf)
+* [Machine Learning Techniques](https://www.youtube.com/watch?v=A-GxGCCAIrg&list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2)
+
 ## DEEPLEARNING
 * [Machine Learning & Deep Learning Fundamentals](http://deeplizard.com/learn/playlist/PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU) (update to lecture 36)
 #### Additional Material 
