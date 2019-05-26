@@ -16,6 +16,6 @@ Awesome materials for learning about Artificial Intelligence
   * [Tensor Operations](https://pytorch.org/docs/stable/torch.html)
   * [Automatic Differentiation Package-torch.autograd](https://pytorch.org/docs/stable/autograd.html#module-torch.autograd)
 * [PyTorch Tutorials](https://pytorch.org/tutorials/)
-* [Neural Network Programming - Deep Learning with PyTorch](http://deeplizard.com/learn/playlist/PLZbbT5o_s2xrfNyHZsM6ufI0iZENK9xgG) (update to lecture 23)
+* [Neural Network Programming - Deep Learning with PyTorch](http://deeplizard.com/learn/playlist/PLZbbT5o_s2xrfNyHZsM6ufI0iZENK9xgG) (update to lecture 23/26)
 #### Additional Material 
 * [Calculus on Computational Graphs: Backpropagation](http://colah.github.io/posts/2015-08-Backprop/)
