@@ -7,6 +7,8 @@ Awesome materials for learning about Artificial Intelligence
 
 ## MACHINE LEARNING
 * [Machine Learning Foundations](https://www.youtube.com/watch?v=nQvpFSMPhr0&list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf)
+#### Additional Material 
+* [Proof of the VC inequality](https://www.csie.ntu.edu.tw/~htlin/course/ml08fall/doc/vc_proof.pdf)
 * [Machine Learning Techniques](https://www.youtube.com/watch?v=A-GxGCCAIrg&list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2)
 
 ## DEEPLEARNING
