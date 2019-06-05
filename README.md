@@ -12,8 +12,10 @@ Awesome materials for learning about Artificial Intelligence
 * [Machine Learning Foundations](https://www.youtube.com/watch?v=nQvpFSMPhr0&list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf)
 * [Machine Learning Techniques](https://www.youtube.com/watch?v=A-GxGCCAIrg&list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2)
 ### Reference Book
-* [Introduction to Machine Learning](Material/ML/Introduction_to_Machine_Learning.pdf)
+* [The Hundred-Page Machine Learning Book](Material/ML/The_Hundred_Page_Machine_Learning_Book.pdf)
+* [Understanding Machine Learning](Material/ML/Understanding_Machine_Learning.pdf)
 * [Machine Learning: A Probabilistic Perspective](Material/ML/Machine_Learning_A_Probabilistic_Perspective.pdf)
+* [Introduction to Machine Learning](Material/ML/Introduction_to_Machine_Learning.pdf)
 * [An Introduction to Statistical Learning](Material/ML/An_Introduction_to_Statistical_Learning.pdf)
 * [Introduction to Numpy](Material/ML/Introduction_to_Numpy.pdf)
 ### Additional Material 
@@ -22,6 +24,8 @@ Awesome materials for learning about Artificial Intelligence
 ## DEEPLEARNING
 ### Lecture
 * [Machine Learning & Deep Learning Fundamentals](http://deeplizard.com/learn/playlist/PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU) (update to lecture 36)
+### Reference Book
+* [Deep Learning](Material/DL/Deep_Learning.pdf)
 ### Additional Material 
 * [What is the Difference Between a Batch and an Epoch in a Neural Network?](https://machinelearningmastery.com/difference-between-a-batch-and-an-epoch/)
 * [An Overview of Regularization Techniques in Deep Learning (with Python code)](https://www.analyticsvidhya.com/blog/2018/04/fundamentals-deep-learning-regularization-techniques/)
