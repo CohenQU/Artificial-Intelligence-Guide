@@ -12,10 +12,10 @@ Awesome materials for learning about Artificial Intelligence
 * [Machine Learning Foundations](https://www.youtube.com/watch?v=nQvpFSMPhr0&list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf)
 * [Machine Learning Techniques](https://www.youtube.com/watch?v=A-GxGCCAIrg&list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2)
 ### Reference Book
-* [Introduction to Machine Learning](Material/Introduction_to_Machine_Learning.pdf)
-* [Machine Learning: A Probabilistic Perspective](Material/Machine_Learning_A_Probabilistic_Perspective.pdf)
-* [An Introduction to Statistical Learning](Material/An_Introduction_to_Statistical_Learning.pdf)
-* [Introduction to Numpy](Material/Introduction_to_Numpy.pdf)
+* [Introduction to Machine Learning](Material/ML/Introduction_to_Machine_Learning.pdf)
+* [Machine Learning: A Probabilistic Perspective](Material/ML/Machine_Learning_A_Probabilistic_Perspective.pdf)
+* [An Introduction to Statistical Learning](Material/ML/An_Introduction_to_Statistical_Learning.pdf)
+* [Introduction to Numpy](Material/ML/Introduction_to_Numpy.pdf)
 ### Additional Material 
 * [Proof of the VC inequality](https://www.csie.ntu.edu.tw/~htlin/course/ml08fall/doc/vc_proof.pdf)
 
@@ -41,6 +41,6 @@ Awesome materials for learning about Artificial Intelligence
 * [From Languages to Information](https://www.youtube.com/channel/UC_48v322owNVtORXuMeRmpA)
 * [Natural Language Processing](https://www.youtube.com/watch?v=3Dt_yh1mf_U&list=PLQiyVNMpDLKnZYBTUOlSI9mi9wAErFtFm)
 ### Reference Book
-* [An Introduction to Information Retrieval](Material/An_Introduction_to_Information_Retrieval.pdf)
-* [Speech and Language Processing (2nd Edition)](Material/Speech_and_Language_Processing_2nd_Edition.pdf)
-* [Speech and Language Processing (3rd Edition)](Material/Speech_and_Language_Processing_3rd_Edition.pdf)
+* [An Introduction to Information Retrieval](Material/NLP/An_Introduction_to_Information_Retrieval.pdf)
+* [Speech and Language Processing (2nd Edition)](Material/NLP/Speech_and_Language_Processing_2nd_Edition.pdf)
+* [Speech and Language Processing (3rd Edition)](Material/NLP/Speech_and_Language_Processing_3rd_Edition.pdf)
