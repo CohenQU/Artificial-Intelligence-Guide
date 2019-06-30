@@ -56,4 +56,10 @@ Awesome materials for learning about Artificial Intelligence
  * [Robust Distant Supervision Relation Extraction via Deep Reinforcement Learning](https://www.aclweb.org/anthology/P18-1199)
  * [Efficient and Robust Question Answering from Minimal Context over Documents](https://aclweb.org/anthology/P18-1160)
  * [Towards Robust and Privacy-preserving Text Representations](https://aclweb.org/anthology/P18-2005)
+ #### [EMNLP 2018](https://aclweb.org/anthology/events/emnlp-2018/#d18-2)
+ * [Supervised and Unsupervised Methods for Robust Separation of Section Titles and Prose Text in Web Documents](https://www.aclweb.org/anthology/D18-1099)
+ * [Discriminative Deep Dyna-Q: Robust Planning for Dialogue Policy Learning](https://www.aclweb.org/anthology/D18-1416)
+ * [Robust Document Retrieval and Individual Evidence Modeling for Fact Extraction and Verification](https://www.aclweb.org/anthology/W18-5521)
+ * [Robust Word Vectors: Context-Informed Embeddings for Noisy Texts](https://www.aclweb.org/anthology/W18-6108)
+ * [Robust parfda Statistical Machine Translation Results](https://www.aclweb.org/anthology/W18-6405)
  
