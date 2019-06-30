@@ -49,3 +49,11 @@ Awesome materials for learning about Artificial Intelligence
 * [An Introduction to Information Retrieval](Material/NLP/An_Introduction_to_Information_Retrieval.pdf)
 * [Speech and Language Processing (2nd Edition)](Material/NLP/Speech_and_Language_Processing_2nd_Edition.pdf)
 * [Speech and Language Processing (3rd Edition)](Material/NLP/Speech_and_Language_Processing_3rd_Edition.pdf)
+### Paper
+#### [ACL 2018](https://acl2018.org/programme/papers/)
+ * [Towards Robust Neural Machine Translation](https://www.aclweb.org/anthology/P18-1163)
+ * [A robust self-learning method for fully unsupervised cross-lingual mappings of word embeddings](https://aclweb.org/anthology/P18-1073)
+ * [Robust Distant Supervision Relation Extraction via Deep Reinforcement Learning](https://www.aclweb.org/anthology/P18-1199)
+ * [Efficient and Robust Question Answering from Minimal Context over Documents](https://aclweb.org/anthology/P18-1160)
+ * [Towards Robust and Privacy-preserving Text Representations](https://aclweb.org/anthology/P18-2005)
+ 
