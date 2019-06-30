@@ -64,12 +64,11 @@ Awesome materials for learning about Artificial Intelligence
  * [Robust parfda Statistical Machine Translation Results](https://www.aclweb.org/anthology/W18-6405)
  
  #### ACL/EMNLP Before 2017
- * [ConStance: Modeling Annotation Contexts to Improve Stance Classification](https://www.aclweb.org/anthology/D17-1116)
  * [Bi-Transferring Deep Neural Networks for Domain Adaptation](https://www.aclweb.org/anthology/P16-1031)
  * [Robust learning in random subspaces: equipping NLP for OOV effects](https://www.aclweb.org/anthology/C12-2114)
- * [Universal Semantic Parsing](https://www.aclweb.org/anthology/D17-1009)
+ * [Adversarial Examples for Evaluating Reading Comprehension Systems](https://www.aclweb.org/anthology/D17-1215)
  * [Learning ChineseWord Representations From Glyphs Of Characters](https://www.aclweb.org/anthology/D17-1025)
- * [Towards a Universal Sentiment Classifier in Multiple languages](https://www.aclweb.org/anthology/D17-1053)
+ * [Part-of-Speech Tagging for Twitter with Adversarial Neural Networks](https://www.aclweb.org/anthology/D17-1256)
  * [Ckylark: A More Robust PCFG-LA Parser](https://www.aclweb.org/anthology/N15-3009)
  * [Supervised Learning of Universal Sentence Representations from Natural Language Inference Data](https://www.aclweb.org/anthology/D17-1070)
  * [Finding Patterns in Noisy Crowds: Regression-based Annotation Aggregation for Crowdsourced Data](https://www.aclweb.org/anthology/D17-1204)
