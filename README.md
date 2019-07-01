@@ -61,8 +61,7 @@ Awesome materials for learning about Artificial Intelligence
  * [Discriminative Deep Dyna-Q: Robust Planning for Dialogue Policy Learning](https://www.aclweb.org/anthology/D18-1416)
  * [Robust Document Retrieval and Individual Evidence Modeling for Fact Extraction and Verification](https://www.aclweb.org/anthology/W18-5521)
  * [Robust Word Vectors: Context-Informed Embeddings for Noisy Texts](https://www.aclweb.org/anthology/W18-6108)
- * [Robust parfda Statistical Machine Translation Results](https://www.aclweb.org/anthology/W18-6405)
- 
+ * [Robust parfda Statistical Machine Translation Results](https://www.aclweb.org/anthology/W18-6405) 
  #### ACL/EMNLP Before 2017
  * [Bi-Transferring Deep Neural Networks for Domain Adaptation](https://www.aclweb.org/anthology/P16-1031)
  * [Robust learning in random subspaces: equipping NLP for OOV effects](https://www.aclweb.org/anthology/C12-2114)
@@ -72,4 +71,8 @@ Awesome materials for learning about Artificial Intelligence
  * [Ckylark: A More Robust PCFG-LA Parser](https://www.aclweb.org/anthology/N15-3009)
  * [Supervised Learning of Universal Sentence Representations from Natural Language Inference Data](https://www.aclweb.org/anthology/D17-1070)
  * [Finding Patterns in Noisy Crowds: Regression-based Annotation Aggregation for Crowdsourced Data](https://www.aclweb.org/anthology/D17-1204)
- 
+ #### [Adversarial Attacks on Deep Learning Models in Natural Language Processing: A Survey](https://arxiv.org/pdf/1901.06796.pdf)
+ * Cross Model
+   * [Image Captioning](https://arxiv.org/pdf/1712.02051.pdf) -- Show-and-Fool
+   * [Visual Question Answering](https://arxiv.org/pdf/1709.08693.pdf)
+   * [Visual-Semantic Embedding](https://arxiv.org/pdf/1806.10348.pdf) -- Intra-pair hard negative mining (extending Online Hard Example Mining)
