@@ -65,8 +65,6 @@ Awesome materials for learning about Artificial Intelligence
  #### ACL/EMNLP 2017
  * [Adversarial Examples for Evaluating Reading Comprehension Systems](https://www.aclweb.org/anthology/D17-1215)
  * [Part-of-Speech Tagging for Twitter with Adversarial Neural Networks](https://www.aclweb.org/anthology/D17-1256)
- * [Ckylark: A More Robust PCFG-LA Parser](https://www.aclweb.org/anthology/N15-3009)
- * [Supervised Learning of Universal Sentence Representations from Natural Language Inference Data](https://www.aclweb.org/anthology/D17-1070)
  * [Finding Patterns in Noisy Crowds: Regression-based Annotation Aggregation for Crowdsourced Data](https://www.aclweb.org/anthology/D17-1204)
  * [Adversarial Examples for Evaluating Reading Comprehension Systems](https://www.aclweb.org/anthology/D17-1230)
  * [Adversarial Learning for Neural Dialogue Generation](https://www.aclweb.org/anthology/D17-1215)
@@ -91,6 +89,7 @@ Awesome materials for learning about Artificial Intelligence
  * [Robust Subgraph Generation Improves Abstract Meaning Representation Parsing](https://www.aclweb.org/anthology/P15-1095)
  * [Robust Multi-Relational Clustering via ℓ1-Norm Symmetric Nonnegative Matrix Factorization](https://www.aclweb.org/anthology/P15-2065)
  * [Hierarchical Latent Words Language Models for Robust Modeling to Out-Of Domain Tasks](https://www.aclweb.org/anthology/D15-1217)
+ * [Ckylark: A More Robust PCFG-LA Parser](https://www.aclweb.org/anthology/N15-3009)
  #### [Adversarial Attacks on Deep Learning Models in Natural Language Processing: A Survey](https://arxiv.org/pdf/1901.06796.pdf)
  * Cross Model
    * [Image Captioning](https://arxiv.org/pdf/1712.02051.pdf) -- Show-and-Fool
