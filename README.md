@@ -64,5 +64,5 @@ Awesome materials for learning about Artificial Intelligence
  * [Robust parfda Statistical Machine Translation Results](https://www.aclweb.org/anthology/W18-6405)
  #### [Adversarial Attacks on Deep Learning Models in Natural Language Processing: A Survey](https://arxiv.org/pdf/1901.06796.pdf)
  * Cross Model
-  * [Attacking Visual Language Grounding with Adversarial Examples: A Case Study on Neural Image Captioning](https://arxiv.org/pdf/1712.02051.pdf)
+ ** [Attacking Visual Language Grounding with Adversarial Examples: A Case Study on Neural Image Captioning](https://arxiv.org/pdf/1712.02051.pdf)
  
