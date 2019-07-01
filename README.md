@@ -64,6 +64,6 @@ Awesome materials for learning about Artificial Intelligence
  * [Robust parfda Statistical Machine Translation Results](https://www.aclweb.org/anthology/W18-6405)
  #### [Adversarial Attacks on Deep Learning Models in Natural Language Processing: A Survey](https://arxiv.org/pdf/1901.06796.pdf)
  * Cross Model
-   * [Image Captioning](https://arxiv.org/pdf/1712.02051.pdf)
+   * [Image Captioning](https://arxiv.org/pdf/1712.02051.pdf) -- Show-and-Fool
    * [Visual Question Answering](https://arxiv.org/pdf/1709.08693.pdf)
-   * [Visual-Semantic Embedding](https://arxiv.org/pdf/1806.10348.pdf)
+   * [Visual-Semantic Embedding](https://arxiv.org/pdf/1806.10348.pdf) -- Intra-pair hard negative mining (extending Online Hard Example Mining)
