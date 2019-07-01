@@ -85,13 +85,13 @@ Awesome materials for learning about Artificial Intelligence
  * [An Evaluation of Parser Robustness for Ungrammatical Sentences](https://www.aclweb.org/anthology/D16-1207) 
  * [A Latent Concept Topic Model for Robust Topic Inference Using Word Embeddings](https://www.aclweb.org/anthology/P16-2062) 
  * [Robust Co-occurrence Quantification for Lexical Distributional Semantics](https://www.aclweb.org/anthology/P16-3009) 
- * [The Enemy in Your Own Camp: How Well Can We Detect Statistically-Generated Fake Reviews – An Adversarial Study](https://www.aclweb.org/anthology/P16-2057) 
+ * [The Enemy in Your Own Camp: How Well Can We Detect Statistically-Generated Fake Reviews – An Adversarial Study](https://www.aclweb.org/anthology/P16-2057)
+ * [Learning Robust Representations of Text](https://www.aclweb.org/anthology/D16-1182)
  #### ACL/EMNLP 2015
  * [Robust Subgraph Generation Improves Abstract Meaning Representation Parsing](https://www.aclweb.org/anthology/P15-1095)
  * [Robust Multi-Relational Clustering via ℓ1-Norm Symmetric Nonnegative Matrix Factorization](https://www.aclweb.org/anthology/P15-2065)
  * [Hierarchical Latent Words Language Models for Robust Modeling to Out-Of Domain Tasks](https://www.aclweb.org/anthology/D15-1217)
  #### [Adversarial Attacks on Deep Learning Models in Natural Language Processing: A Survey](https://arxiv.org/pdf/1901.06796.pdf)
- * [Learning Robust Representations of Text](https://www.aclweb.org/anthology/D16-1182)
  * Cross Model
    * [Image Captioning](https://arxiv.org/pdf/1712.02051.pdf) -- Show-and-Fool
    * [Visual Question Answering](https://arxiv.org/pdf/1709.08693.pdf)
