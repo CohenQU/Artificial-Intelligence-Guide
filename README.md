@@ -95,3 +95,21 @@ Awesome materials for learning about Artificial Intelligence
    * [Image Captioning](https://arxiv.org/pdf/1712.02051.pdf) -- Show-and-Fool
    * [Visual Question Answering](https://arxiv.org/pdf/1709.08693.pdf)
    * [Visual-Semantic Embedding](https://arxiv.org/pdf/1806.10348.pdf) -- Intra-pair hard negative mining (extending Online Hard Example Mining)
+ 
+ #### ACL 19 (Not online available, not confirmed as robustness research)
+ * Generating Natural Language Adversarial Examples through Probability Weighted Word Saliency
+ * Adversarial Attention Modeling for Multi-dimensional Emotion Regression
+ * Effective Adversarial Regularization for Neural Machine Translation
+ * Adversarial Learning of Privacy-Preserving Text Representations for De-Identification of Medical Records (not directly related, but about privacy and medical text data)
+ * Improving the Robustness of Question Answering Systems to Question Paraphrasing
+ * On the Robustness of Self-Attentive Models
+ * Robust Representation Learning of Biomedical Names
+ * Robust Zero-Shot Cross-Domain Slot Filling with Example Values
+ * Robust to Noise Models in Natural Language Processing Tasks
+ #### Available
+ * Generating Natural Language Adversarial Examples [EMNLP18]
+ * Robust neural machine translation with doubly adversarial inputs.
+ * Avoiding Reasoning Shortcuts: Adversarial Evaluation, Training, and Model Development for Multi-Hop QA
+ * Combating Adversarial Misspellings with Robust Word Recognition
+ * Imperceptible, Robust, and Targeted Adversarial Examples for Automatic Speech Recognition [ICML2019]
+ * Discrete Adversarial Attacks and Submodular Optimization with Application to Text Classification [SysML19]
