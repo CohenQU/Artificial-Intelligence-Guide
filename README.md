@@ -52,5 +52,4 @@ Awesome materials for learning about Artificial Intelligence
 
 ## Paper
 ### [Conference](Readme/Paper/conference.md)
-### [Text Classification](Readme/Paper/text-classification.md)
-### [Sentiment Analysis](Readme/Paper/sentiment-analysis.md)
+### [Survey](Readme/Paper/survey.md)
