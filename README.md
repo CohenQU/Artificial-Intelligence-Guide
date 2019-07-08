@@ -51,6 +51,8 @@ Awesome materials for learning about Artificial Intelligence
 * [Speech and Language Processing (3rd Edition)](Material/NLP/Speech_and_Language_Processing_3rd_Edition.pdf)
 
 ## Paper
+### [Robust](Readme/Paper/rohust.me)
+### [Text Classification]
 ### [ACL 2018](https://acl2018.org/programme/papers/)
  * [Towards Robust Neural Machine Translation](https://www.aclweb.org/anthology/P18-1163)
  * [A robust self-learning method for fully unsupervised cross-lingual mappings of word embeddings](https://aclweb.org/anthology/P18-1073)
