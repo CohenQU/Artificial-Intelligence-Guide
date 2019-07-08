@@ -51,5 +51,6 @@ Awesome materials for learning about Artificial Intelligence
 * [Speech and Language Processing (3rd Edition)](Material/NLP/Speech_and_Language_Processing_3rd_Edition.pdf)
 
 ## Paper
-### [Robust](Readme/Paper/rohust.md)
+### [Conference](Readme/Paper/conference.md)
 ### [Text Classification](Readme/Paper/text-classification.md)
+### [Sentiment Analysis](Readme/Paper/sentiment-analysis.md)
