@@ -53,3 +53,4 @@ Awesome materials for learning about Artificial Intelligence
 ## Paper
 ### [Conference](Readme/Paper/conference.md)
 ### [Survey](Readme/Paper/survey.md)
+### [Interests](Readme/Paper/interest.md)
