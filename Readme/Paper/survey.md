@@ -14,7 +14,7 @@
 - [X] [Crafting Adversarial Input Sequences for Recurrent Neural Networks](https://arxiv.org/abs/1604.08275)
 - [ ] Generating Adversarial Text Samples (not avaliable)
 - [X] [Interpretable Adversarial Perturbation in Input Embedding Space for Text](https://arxiv.org/abs/1805.02917)
-- [ ] [Semantically Equivalent Adversarial Rules for Debugging NLP models](https://aclweb.org/anthology/papers/P/P18/P18-1079/)
+- [X] [Semantically Equivalent Adversarial Rules for Debugging NLP models](https://aclweb.org/anthology/papers/P/P18/P18-1079/)
 
 ## [Towards a Robust Deep Neural Network in Text Domain A Survey](https://arxiv.org/abs/1902.07285)
 ### Method
