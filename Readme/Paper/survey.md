@@ -18,10 +18,10 @@
 
 ## [Towards a Robust Deep Neural Network in Text Domain A Survey](https://arxiv.org/abs/1902.07285)
 ### Method
-- [ ] DeepWordBug: [Black-box Generation of Adversarial Text Sequences to Evade Deep Learning Classifiers](https://arxiv.org/abs/1801.04354)
+- [X] DeepWordBug: [Black-box Generation of Adversarial Text Sequences to Evade Deep Learning Classifiers](https://arxiv.org/abs/1801.04354)
 - [ ] Papernot: [Crafting Adversarial Input Sequences for Recurrent Neural Networks](https://arxiv.org/abs/1604.08275)
 - [ ] Samanta: [Towards Crafting Text Adversarial Samples](https://arxiv.org/abs/1707.02812)
-- [ ] iAdv-Text: [Interpretable Adversarial Perturbation in Input Embedding Space for Text](https://arxiv.org/abs/1805.02917)
+- [X] iAdv-Text: [Interpretable Adversarial Perturbation in Input Embedding Space for Text](https://arxiv.org/abs/1805.02917)
 - [ ] Gong: [Adversarial Texts with Gradient Methods](https://arxiv.org/abs/1801.07175)
 - [ ] TextBugger: [TextBugger: Generating Adversarial Text Against Real-world Applications](https://arxiv.org/abs/1812.05271)
 - [ ] Text-fool: [Deep Text Classification Can be Fooled](https://arxiv.org/abs/1704.08006)
