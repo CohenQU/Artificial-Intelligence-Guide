@@ -11,7 +11,7 @@
 - [X] [Black-box Generation of Adversarial Text Sequences to Evade Deep Learning Classifiers](https://arxiv.org/abs/1801.04354)
 - [x] [Adversarial Example Generation with Syntactically Controlled Paraphrase Networks](https://arxiv.org/abs/1804.06059)
 - [ ] [Adversarial Reprogramming of Sequence Classification Neural Networks](https://arxiv.org/abs/1809.01829)
-- [ ] [Crafting Adversarial Input Sequences for Recurrent Neural Networks](https://arxiv.org/abs/1604.08275)
+- [X] [Crafting Adversarial Input Sequences for Recurrent Neural Networks](https://arxiv.org/abs/1604.08275)
 - [ ] Generating Adversarial Text Samples (not avaliable)
 - [X] [Interpretable Adversarial Perturbation in Input Embedding Space for Text](https://arxiv.org/abs/1805.02917)
 - [ ] [Semantically Equivalent Adversarial Rules for Debugging NLP models](https://aclweb.org/anthology/papers/P/P18/P18-1079/)
@@ -19,7 +19,7 @@
 ## [Towards a Robust Deep Neural Network in Text Domain A Survey](https://arxiv.org/abs/1902.07285)
 ### Method
 - [X] DeepWordBug: [Black-box Generation of Adversarial Text Sequences to Evade Deep Learning Classifiers](https://arxiv.org/abs/1801.04354)
-- [ ] Papernot: [Crafting Adversarial Input Sequences for Recurrent Neural Networks](https://arxiv.org/abs/1604.08275)
+- [X] Papernot: [Crafting Adversarial Input Sequences for Recurrent Neural Networks](https://arxiv.org/abs/1604.08275)
 - [X] Samanta: [Towards Crafting Text Adversarial Samples](https://arxiv.org/abs/1707.02812)
 - [X] iAdv-Text: [Interpretable Adversarial Perturbation in Input Embedding Space for Text](https://arxiv.org/abs/1805.02917)
 - [ ] Gong: [Adversarial Texts with Gradient Methods](https://arxiv.org/abs/1801.07175)
