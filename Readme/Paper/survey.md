@@ -1,11 +1,11 @@
 ## [Adversarial Attacks on Deep Learning Models in Natural Language Processing: A Survey](https://arxiv.org/abs/1901.06796)
 ### Text Classification
 - [x] [HotFlip: White-Box Adversarial Examples for Text Classification](https://arxiv.org/abs/1712.06751)
-- [ ] [Black-box Generation of Adversarial Text Sequences to Evade Deep Learning Classifiers](https://arxiv.org/abs/1801.04354)
+- [X] [Black-box Generation of Adversarial Text Sequences to Evade Deep Learning Classifiers](https://arxiv.org/abs/1801.04354)
 - [ ] [Adversarial Texts with Gradient Methods](https://arxiv.org/abs/1801.07175)
 - [ ] [Deep Text Classification Can be Fooled](https://arxiv.org/abs/1704.08006)
 - [x] [Adversarial Reprogramming of Sequence Classification Neural Networks](https://arxiv.org/abs/1809.01829)
-- [ ] [Interpretable Adversarial Perturbation in Input Embedding Space for Text](https://arxiv.org/abs/1805.02917)
+- [X] [Interpretable Adversarial Perturbation in Input Embedding Space for Text](https://arxiv.org/abs/1805.02917)
 ### Sentiment Analysis
 - [x] [HotFlip: White-Box Adversarial Examples for Text Classification](https://arxiv.org/abs/1712.06751)
 - [ ] [Black-box Generation of Adversarial Text Sequences to Evade Deep Learning Classifiers](https://arxiv.org/abs/1801.04354)
