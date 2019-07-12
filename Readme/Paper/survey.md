@@ -1,15 +1,15 @@
 ## [Adversarial Attacks on Deep Learning Models in Natural Language Processing: A Survey](https://arxiv.org/abs/1901.06796)
 ### Text Classification
-- [x] [HotFlip: White-Box Adversarial Examples for Text Classification](https://arxiv.org/abs/1712.06751)
+- [X] [HotFlip: White-Box Adversarial Examples for Text Classification](https://arxiv.org/abs/1712.06751)
 - [X] [Black-box Generation of Adversarial Text Sequences to Evade Deep Learning Classifiers](https://arxiv.org/abs/1801.04354)
 - [ ] [Adversarial Texts with Gradient Methods](https://arxiv.org/abs/1801.07175)
-- [ ] [Deep Text Classification Can be Fooled](https://arxiv.org/abs/1704.08006)
+- [X] [Deep Text Classification Can be Fooled](https://arxiv.org/abs/1704.08006)
 - [ ] [Adversarial Reprogramming of Sequence Classification Neural Networks](https://arxiv.org/abs/1809.01829)
 - [X] [Interpretable Adversarial Perturbation in Input Embedding Space for Text](https://arxiv.org/abs/1805.02917)
 ### Sentiment Analysis
-- [x] [HotFlip: White-Box Adversarial Examples for Text Classification](https://arxiv.org/abs/1712.06751)
+- [X] [HotFlip: White-Box Adversarial Examples for Text Classification](https://arxiv.org/abs/1712.06751)
 - [X] [Black-box Generation of Adversarial Text Sequences to Evade Deep Learning Classifiers](https://arxiv.org/abs/1801.04354)
-- [x] [Adversarial Example Generation with Syntactically Controlled Paraphrase Networks](https://arxiv.org/abs/1804.06059)
+- [X] [Adversarial Example Generation with Syntactically Controlled Paraphrase Networks](https://arxiv.org/abs/1804.06059)
 - [ ] [Adversarial Reprogramming of Sequence Classification Neural Networks](https://arxiv.org/abs/1809.01829)
 - [X] [Crafting Adversarial Input Sequences for Recurrent Neural Networks](https://arxiv.org/abs/1604.08275)
 - [ ] Generating Adversarial Text Samples (not avaliable)
@@ -24,7 +24,7 @@
 - [X] iAdv-Text: [Interpretable Adversarial Perturbation in Input Embedding Space for Text](https://arxiv.org/abs/1805.02917)
 - [ ] Gong: [Adversarial Texts with Gradient Methods](https://arxiv.org/abs/1801.07175)
 - [ ] TextBugger: [TextBugger: Generating Adversarial Text Against Real-world Applications](https://arxiv.org/abs/1812.05271)
-- [ ] Text-fool: [Deep Text Classification Can be Fooled](https://arxiv.org/abs/1704.08006)
+- [X] Text-fool: [Deep Text Classification Can be Fooled](https://arxiv.org/abs/1704.08006)
 - [x] HotFlip: [HotFlip: White-Box Adversarial Examples for Text Classification](https://arxiv.org/abs/1712.06751)
 - [X] Alzantot: [Generating Natural Language Adversarial Examples](https://arxiv.org/abs/1804.07998)
 ### Model
