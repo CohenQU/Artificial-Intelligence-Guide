@@ -1,6 +1,7 @@
 * [Adversarial Training Methods for Semi-Supervised Text Classification](https://arxiv.org/abs/1605.07725)
 * [Synthetic and Natural Noise Both Break Neural Machine Translation](https://arxiv.org/abs/1711.02173)
 * [Adversarial Reprogramming of Neural Networks](https://arxiv.org/abs/1806.11146)
+* [DeepFool: A Simple and Accurate Method to Fool Deep Neural Networks](https://arxiv.org/pdf/1511.04599)
 ## NAACL 2019 Outstanding Papers
 
 * Best Thematic Paper: [What's in a Name? Reducing Bias in Bios without Access to Protected Attributes](https://arxiv.org/abs/1904.05233)
